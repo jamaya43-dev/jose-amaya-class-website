@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.middle {
+    display: flex;
+    flex: 1;
+}
+.left-sidebar {
+    flex: 1;
+}
+.main-content {
+    flex: 2;
+}
+.right-sidebar {
+    flex: 1;
+}
+.header {
+    background-color: #05c725;
+}
+    .header h1 {
+        color: #3e09fd;
+        font-family: Futura, sans-serif;
+        font-size: 2em;
+    }
+.left-sidebar {
+    background-color: #07f8ec;
+}
+.main-content {
+    background-color: #f80e97;
+}
+.right-sidebar {
+    background-color: #dd1111;
+}
+.footer {
+    background-color: #f8f80e;
+}
+ .main-content img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
